@@ -35,7 +35,7 @@ namespace RazorPagesMovie
             else
             {
                 services.AddDbContext<RazorPagesMovieContext>(options => 
-                    options.UseSqlServer(Configuration.GetConnectionString("MovieContext")));
+                    options.UseSqlServer(Configuration.GetConnectionString("MovieContext2")));
             }
 
             services.AddRazorPages();
